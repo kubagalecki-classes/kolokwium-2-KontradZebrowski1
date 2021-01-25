@@ -8,7 +8,7 @@
 template <typename T>
 bool predic(std::string s, T* it)
 {
-  return s == T->getNazwa();
+  return s == it->getNazwa();
 }
 
 template <typename T>
