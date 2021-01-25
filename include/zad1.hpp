@@ -15,7 +15,7 @@ Warzywo(const std::string& n, double c, int k): nazwa(n), cena(c), kolor(k) { ++
 
 ~Warzywo() { --liczbaWarzyw; }
 
-unsigned getVeg() { return liczbaWarzyw; }
+static unsigned getVeg() { return liczbaWarzyw; }
 
 void opis(std::ostream& a) const 
 {
