@@ -5,8 +5,8 @@
 #include <vector>
 
 // tutaj algorytm liczKolejneWarzywa
-template <typename T>
-bool predic(std::string s, T* it)
+
+bool predic(std::string s, Warzywo* it)
 {
   return s == it->getNazwa();
 }
