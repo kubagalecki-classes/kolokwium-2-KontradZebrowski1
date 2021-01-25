@@ -26,7 +26,7 @@ private:
 std::string nazwa;
 double cena;
 int kolor;
-inline static unsigned liczbaWarzyw;
+inline static unsigned liczbaWarzyw; // liczbaWarzyw
 };
 
 //unsigned Warzywo::liczbaWarzyw = 0;
