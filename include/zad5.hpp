@@ -5,3 +5,4 @@
 #include <vector>
 
 // tutaj algorytm liczKolejneWarzywa
+template <typename T>

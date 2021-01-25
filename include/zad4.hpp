@@ -11,7 +11,7 @@ if (n > koszyk.size())
 {
   throw std::logic_error{"oj"};
 }
-it = koszyk.crbegin();
+auto it = koszyk.crbegin();
 it += 1;
 for (unsigned i = 0; i < n; i++)
         {
