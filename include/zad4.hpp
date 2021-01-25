@@ -5,3 +5,7 @@
 #include <vector>
 
 // tutaj funkcja jedzOstatnieWarzywa
+void jedzOstatnieWarzywa(const std::vector<Warzywo>& koszyk)
+{
+
+}
