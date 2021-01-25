@@ -22,6 +22,8 @@ void opis(std::ostream& a) const
   a << nazwa <<": "<<cena<<", "<<kolor<<"\n";
 }
 
+const std::string getNazwa() {return nazwa;}
+
 private:
 std::string nazwa;
 double cena;
