@@ -5,3 +5,4 @@
 #include <functional>
 
 // tutaj szablon gotujZupe
+template <typename T>

@@ -32,10 +32,10 @@ std::string jedzOgorek( Ogorek* ogor )
 {
   if (dynamic_cast<Zielony*>(ogor) != nullptr)
   {
-    return"Zielony: " + Ogorek->chrup ;
+    return"Zielony: " + Ogorek.chrup ;
   }
   else if (dynamic_cast<Kiszony*>(ogor) != nullptr)
   {
-    return "Kiszony: " + Ogorek->chrup ;
+    return "Kiszony: " + Ogorek.chrup ;
   }
 }
