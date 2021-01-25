@@ -14,7 +14,12 @@ bool predic(std::string s, Warzywo* it)
 template <typename T>
 bool liczKolejneWarzywa(T begin, T end, unsigned n, const std::string& s)
 {
-return std::search_n(begin, end, n, s, predic) != end;
+  std::vector<std::string> menu;
+  for(auto it = begin; it != end; ++it)
+  {
+    menu.emplace_back(it->getNazwa());
+  }
+return std::search_n(menu.begin, menu.end, n, s) != end;
 }
 
 //[](T it){return it.getNazwa() == s;}

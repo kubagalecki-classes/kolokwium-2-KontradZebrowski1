@@ -29,9 +29,6 @@ SUFFIXES =
 .SUFFIXES: .hpux_make_needs_suffix_list
 
 
-# Produce verbose output by default.
-VERBOSE = 1
-
 # Suppress display of executed commands.
 $(VERBOSE).SILENT:
 
@@ -57,45 +54,45 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/runner/kolokwium-2-KontradZebrowski1-1/build/CMakeFiles/CMakeTmp
+CMAKE_SOURCE_DIR = /home/runner/kolokwium-2-KontradZebrowski1-1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/runner/kolokwium-2-KontradZebrowski1-1/build/CMakeFiles/CMakeTmp
+CMAKE_BINARY_DIR = /home/runner/kolokwium-2-KontradZebrowski1-1/build
 
 #=============================================================================
-# Target rules for target CMakeFiles/cmTC_7aa9a.dir
+# Target rules for target CMakeFiles/kolokwium.dir
 
 # All Build rule for target.
-CMakeFiles/cmTC_7aa9a.dir/all:
-	$(MAKE) -f CMakeFiles/cmTC_7aa9a.dir/build.make CMakeFiles/cmTC_7aa9a.dir/depend
-	$(MAKE) -f CMakeFiles/cmTC_7aa9a.dir/build.make CMakeFiles/cmTC_7aa9a.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/runner/kolokwium-2-KontradZebrowski1-1/build/CMakeFiles/CMakeTmp/CMakeFiles --progress-num=1,2 "Built target cmTC_7aa9a"
-.PHONY : CMakeFiles/cmTC_7aa9a.dir/all
+CMakeFiles/kolokwium.dir/all:
+	$(MAKE) -f CMakeFiles/kolokwium.dir/build.make CMakeFiles/kolokwium.dir/depend
+	$(MAKE) -f CMakeFiles/kolokwium.dir/build.make CMakeFiles/kolokwium.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/runner/kolokwium-2-KontradZebrowski1-1/build/CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target kolokwium"
+.PHONY : CMakeFiles/kolokwium.dir/all
 
 # Include target in all.
-all: CMakeFiles/cmTC_7aa9a.dir/all
+all: CMakeFiles/kolokwium.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/cmTC_7aa9a.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/runner/kolokwium-2-KontradZebrowski1-1/build/CMakeFiles/CMakeTmp/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/cmTC_7aa9a.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/runner/kolokwium-2-KontradZebrowski1-1/build/CMakeFiles/CMakeTmp/CMakeFiles 0
-.PHONY : CMakeFiles/cmTC_7aa9a.dir/rule
+CMakeFiles/kolokwium.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/runner/kolokwium-2-KontradZebrowski1-1/build/CMakeFiles 7
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/kolokwium.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/runner/kolokwium-2-KontradZebrowski1-1/build/CMakeFiles 0
+.PHONY : CMakeFiles/kolokwium.dir/rule
 
 # Convenience name for target.
-cmTC_7aa9a: CMakeFiles/cmTC_7aa9a.dir/rule
+kolokwium: CMakeFiles/kolokwium.dir/rule
 
-.PHONY : cmTC_7aa9a
-
-# clean rule for target.
-CMakeFiles/cmTC_7aa9a.dir/clean:
-	$(MAKE) -f CMakeFiles/cmTC_7aa9a.dir/build.make CMakeFiles/cmTC_7aa9a.dir/clean
-.PHONY : CMakeFiles/cmTC_7aa9a.dir/clean
+.PHONY : kolokwium
 
 # clean rule for target.
-clean: CMakeFiles/cmTC_7aa9a.dir/clean
+CMakeFiles/kolokwium.dir/clean:
+	$(MAKE) -f CMakeFiles/kolokwium.dir/build.make CMakeFiles/kolokwium.dir/clean
+.PHONY : CMakeFiles/kolokwium.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/kolokwium.dir/clean
 
 .PHONY : clean
 
