@@ -8,5 +8,5 @@
 template <typename T>
 bool liczKolejneWarzywa(T begin, T end, unsigned n, const std::string& s)
 {
-return std::search_n(begin, end, n, s);
+return std::search_n(begin, end, n, s, T.getNazwa()) != end;
 }
