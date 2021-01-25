@@ -6,3 +6,7 @@
 
 // tutaj algorytm liczKolejneWarzywa
 template <typename T>
+bool liczKolejneWarzywa()
+{
+  
+}

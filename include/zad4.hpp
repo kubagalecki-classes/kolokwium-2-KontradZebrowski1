@@ -15,7 +15,7 @@ auto it = koszyk.crbegin();
 it += 1;
 for (unsigned i = 0; i < n; i++)
         {
-          strumyk << it->opis();
+          it->opis(strumyk);
           it++;
         }
 }
